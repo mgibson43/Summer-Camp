@@ -1,0 +1,35 @@
+a:visited,
+a:active,
+a:link {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #444444;
+}
+
+.container {
+  margin: auto;
+  margin-top: 1em;
+  max-width: 1200px;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content-nav {
+  gap: 1em;
+}
+
+.link-btn {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+
+  background: #222222;
+  color: #eeeeee;
+}
