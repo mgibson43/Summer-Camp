@@ -33,6 +33,10 @@ h3 {
   text-align: center;
 }
 
+img {
+  display: inline-block;
+}
+
 .container {
   margin: auto;
   margin-top: 1em;
@@ -42,18 +46,21 @@ h3 {
 .container-nav {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 4em;
+  margin-bottom: 6em;
 }
 
 .container-header {
-  margin-bottom: 6em;
+  margin-bottom: 8em;
 }
 
 .container-article {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 1em;
+  gap: 5em;
+
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 .content-nav {
@@ -83,15 +90,16 @@ h3 {
   display: inline-block;
 }
 
-.img {
-  display: inline-block;
-}
-
 .paragraph-article {
   margin-bottom: 1em;
 }
 
 .article > a {
   margin-top: 2em;
+}
+
+.img > img {
+  color: #aaa;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
