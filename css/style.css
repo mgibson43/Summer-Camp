@@ -22,6 +22,17 @@ a:hover {
   color: #555;
 }
 
+h1 {
+  font-size: 54px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+  color: #444;
+  text-align: center;
+}
+
 .container {
   margin: auto;
   margin-top: 1em;
@@ -30,7 +41,19 @@ a:hover {
 
 .container-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 4em;
+}
+
+.container-header {
+  margin-bottom: 6em;
+}
+
+.container-article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1em;
 }
 
 .content-nav {
@@ -54,5 +77,21 @@ a:hover {
 .link-btn:hover {
   color: #ccc;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.link-article {
+  display: inline-block;
+}
+
+.img {
+  display: inline-block;
+}
+
+.paragraph-article {
+  margin-bottom: 1em;
+}
+
+.article > a {
+  margin-top: 2em;
 }
 
