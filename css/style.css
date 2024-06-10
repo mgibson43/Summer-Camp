@@ -59,8 +59,19 @@ img {
   align-items: center;
   gap: 5em;
 
-  padding-left: 6em;
-  padding-right: 6em;
+  padding: 0 6em 0 6em;
+  margin-bottom: 12em;
+}
+
+.container-get-started {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+
+  padding: 0 6em 0 6em;
+  margin-bottom: 12em;
 }
 
 .content-nav {
@@ -90,12 +101,28 @@ img {
   display: inline-block;
 }
 
+.header-article {
+  margin-bottom: 0.4em;
+}
+
+.list-article {
+  list-style-type: none;
+}
+
 .paragraph-article {
   margin-bottom: 1em;
 }
 
 .article > a {
-  margin-top: 2em;
+  margin-top: 0.5em;
+}
+
+.list-article {
+  margin-bottom: 1em;
+}
+
+.list-article > li {
+  margin-bottom: 0.2em;
 }
 
 .img > img {
