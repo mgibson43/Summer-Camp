@@ -12,8 +12,12 @@ body {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 60px;
   text-align: center;
+}
+
+h2 {
+  font-size: 42px;
 }
 
 h3 {
@@ -48,8 +52,13 @@ img {
   align-items: center;
   gap: 5em;
 
-  padding: 0 6em 0 6em;
-  margin-bottom: 12em;
+  padding: 2em 6em 3em 6em;
+  margin-bottom: 10em;
+}
+
+.container-our-program,
+.container-sign-up {
+  background-color: #c9eded;
 }
 
 .container-get-started,
@@ -60,8 +69,8 @@ img {
   align-items: center;
   gap: 1em;
 
-  padding: 0 6em 0 6em;
-  margin-bottom: 12em;
+  padding: 2em 6em 3em 6em;
+  margin-bottom: 8em;
 }
 
 .container-contact-sub {
@@ -117,6 +126,11 @@ img {
   display: inline-block;
 }
 
+.link-media {
+  text-decoration: none;
+  font-size: 32px;
+}
+
 .header-article {
   margin-bottom: 0.4em;
 }
@@ -124,6 +138,7 @@ img {
 .list-article,
 li {
   list-style-type: none;
+  margin-bottom: 1em;
 }
 
 .paragraph-article {
@@ -132,10 +147,6 @@ li {
 
 .article > a {
   margin-top: 0.5em;
-}
-
-.list-article {
-  margin-bottom: 1em;
 }
 
 .list-article > li {
