@@ -1,4 +1,4 @@
-@media (width <= 600px) {      
+@media (width <= 860px) {      
   h1 {
     font-size: 60px;
     text-align: center;
@@ -76,6 +76,7 @@
   
   .container-contact-sub {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 4rem;
@@ -83,6 +84,7 @@
   
   .container-footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
   
     margin-bottom: 1rem;
@@ -91,6 +93,7 @@
   .contact-info {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;
   }
   
@@ -162,5 +165,21 @@
   .img > img {
     color: #aaa;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (width <= 600px) {
+  .embedded-form {
+    width: 300px;
+    height: 420px;
+  }
+
+  .embedded-map {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .img > img {
+    width: 300px;
   }
 }
