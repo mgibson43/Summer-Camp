@@ -1,32 +1,12 @@
-@media (width <= 860px) {      
-  h1 {
-    font-size: 60px;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 42px;
-  }
-  
-  h3 {
-    font-size: 28px;
-    color: #444;
-    text-align: center;
-  }
-  
-  h4 {
-    margin-bottom: 0.5rem;
-  }
-  
-  img {
-    display: inline-block;
-  }
-  
+@media (width <= 1000px) {
+
+}
+
+@media (width <= 860px) {        
   .container {
     margin: auto;
     margin-top: 1em;
     max-width: 1200px;
-    margin-right: 0;
   }
   
   .container-nav {
@@ -34,10 +14,6 @@
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 6rem;
-  }
-  
-  .container-header {
-    margin-bottom: 8rem;
   }
   
   .container-article {
@@ -55,11 +31,6 @@
     flex-direction: column-reverse;
   }
   
-  .container-our-program,
-  .container-sign-up {
-    background-color: #c9eded;
-  }
-  
   .container-get-started,
   .container-contact {
     display: flex;
@@ -67,11 +38,6 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-  }
-  
-  .container-get-started {
-    padding: 6rem 6rem 6rem 6rem;
-    margin-bottom: 4rem;
   }
   
   .container-contact-sub {
@@ -103,69 +69,6 @@
     align-items: center;
     font-size: 20px;
   }
-  
-  .link-nav,
-  .link-nav:visited,
-  .link-nav:link {
-    color: #222;
-    text-decoration: none;
-  }
-  
-  .link-nav:hover {
-    color: #555;
-  }
-  
-  .link-btn,
-  .link-btn:visited,
-  .link-btn:link {
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 0.75rem 1.5rem;
-    border-radius: 10px;
-  
-    background: #222;
-    color: #eee;
-  }
-  
-  .link-btn:hover {
-    color: #ccc;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  .link-article {
-    display: inline-block;
-  }
-  
-  .link-media {
-    text-decoration: none;
-    font-size: 32px;
-  }
-  
-  .header-article {
-    margin-bottom: 0.4rem;
-  }
-  
-  .list-article,
-  li {
-    list-style-type: none;
-    margin-bottom: 0.5rem;
-  }
-  
-  .paragraph-article {
-    margin-bottom: 1rem;
-  }
-  
-  .article > a {
-    margin-top: 0.5rem;
-  }
-  
-  .list-article > li {
-    margin-bottom: 0.2rem;
-  }
-  
-  .img > img {
-    color: #aaa;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  }
 }
 
 @media (width <= 600px) {
@@ -175,11 +78,15 @@
   }
 
   .embedded-map {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
   
   .img > img {
-    width: 300px;
+    width: 350px;
+  }
+
+  .form-section {
+    flex-direction: column;
   }
 }
