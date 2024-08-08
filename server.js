@@ -1,14 +1,15 @@
 'use static'
 
-
 const path = require('path');
 const express = require('express');
+const cors = require('cors');
 const urlencoded = require('body-parser').urlencoded;
 const text = require('./sendText');
 
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 app.use(urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -24,6 +25,10 @@ app.post('/', (request, response) => {
   const pNumber = request.body.phoneNumber;
 
   text.sendText(name, pNumber, email);
+
+  response.status(204).send();
+
+  document.querySelectorAll('.input').innerHTML = '';
 });
 
 app.listen(3000);
