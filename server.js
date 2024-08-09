@@ -26,9 +26,7 @@ app.post('/', (request, response) => {
 
   text.sendText(name, pNumber, email);
 
-  response.status(204).send();
-
-  document.querySelectorAll('.input').innerHTML = '';
+  response.status(200).sendFile(path.join(__dirname, 'public', 'confirmation.html'));
 });
 
 app.listen(3000);
